@@ -77,3 +77,22 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+# Command
+1. install nodejs
+2. install npm
+3. install java development kit
+4. install android sofware development kit and emulator
+5. npm install -g @react-native-community/cli
+6. npm cache clean --force
+7. npx react-native init greenstock_apk
+8. cd greenstock_apk
+9. npx react-native run-android
+10. running metro in terminal: npx react-native start
+11. get .apk file:
+      - cd android
+      - ./gradlew assembleRelease
+      - file in /android/app/build/outputs/apk/release
+12. 
+
